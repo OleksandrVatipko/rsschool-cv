@@ -1,49 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;800&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Project</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main class="main">
-        <div class="container">
-            <section class="section" id="profile"></section>
-            <section class="section" id="contacts"></section>
-            <section class="section" id="summaty"></section>
-            <section class="section" id="skills"></section>
-            <section class="section" id="code"></section>
-            <section class="section" id="courses"></section>
-            <section class="section" id="projects"></section>
-            <section class="section" id="education"></section>
-            <section class="section" id="languages"></section>
-        </div>
+    <main class="main main-container">
+      <div class="container">
+        <section class="section" id="profile">
+          <h1 class="section-title">Profile</h1>
+          <p>Oleksandr Vatipko</p>
+          <p>Junior front-end developer</p>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+        </section>
+        <section class="section" id="summaty">
+            <h2 class="section-title">Summary</h2>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <p>Web-development: HTML5, CSS3</p>
+            <p>Version control: GIT, Github</p> 
+            <p>Graphics: Figma, Photoshop</p>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <p><code>multiply = function (a, b) {
+                return a * b;
+              }</code></p>
+        </section>
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <p>Youtube - Freelancer for life</p>
+        </section>
+        <section class="section" id="projects">
+            <h2 class="section-title">My projects</h2>
+            <p><a href="https://AleksandrVatipko.github.io/rsschool-cv/cv">CV</a></p>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Admiral Makarov National University of Shipbuilding</p>
+        </section>
+        <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <p>English - Pre-intermediate</p>
+            <p>Russian - Fluent</p>
+        </section>
+      </div>
     </main>
 
     <footer class="footer">
-        <div class="container"></div>
+      <div class="container"></div>
     </footer>
-</body>
+  </body>
 </html>
