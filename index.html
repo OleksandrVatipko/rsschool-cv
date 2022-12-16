@@ -14,6 +14,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header class="header">
       <div class="container">
@@ -52,29 +53,85 @@
     <main class="main">
       <div class="container main-container">
         <section class="section">
-          <img
-            class="avatar"
-            src="/assets/img/avatar.jpg"
-            alt="Avatar"
-            height="200px"
-            width="200px"
-          />
+          <div class="avatar-center">
+            <img
+              class="avatar"
+              src="/assets/img/avatar.jpg"
+              alt="Avatar"
+              height="200px"
+              width="200px"
+            />
+          </div>
         </section>
         <section class="section" id="profile">
-          <h1 class="section-title">Profile</h1>
-          <p class="profile-text">Oleksandr Vatipko</p>
+          <h1 class="section-title profile-text">Oleksandr Vatipko</h1>
+          <hr class="hr">
           <p class="profile-text">Junior front-end developer</p>
         </section>
         <section class="section" id="contacts">
           <h2 class="section-title">Contacts</h2>
-          <p> <img src="/assets/icon/location.png" alt="" class="icon-contacts"> Ternopil, Ukraine</p>
-          <p> <img src="/assets/icon/email.png" alt="" class="icon-contacts"> Email: <a href="mailto:vatipko@gmail.com">vatipko@gmail.com</a></p>
-          <p> <img src="/assets/icon/github.png" alt="" class="icon-contacts">
-            Github:
-            <a href="https://github.com/AleksandrVatipko">AleksandrVatipko</a>
-          </p>
-          <p> <img src="/assets/icon/telegram.png" alt="" class="icon-contacts"> Telegram: <a href="https://t.me/Pibody22">@Pibody22</a></p>
-          <p><img src="/assets/icon/discord.svg" alt="Discord" class="icon-contacts">Discord: oleksandr_vatipko#2934</p>
+          <ul class="list">
+            <li>
+              <p>
+                <img
+                  src="/assets/icon/location.png"
+                  alt=""
+                  class="icon-contacts"
+                />
+                <span class="list-contact">Ternopil, Ukraine</span>
+              </p>
+            </li>
+            <li>
+              <p>
+                <img
+                  src="/assets/icon/email.png"
+                  alt=""
+                  class="icon-contacts"
+                />
+                <span class="list-contact"
+                  >Email:
+                  <a href="mailto:vatipko@gmail.com">vatipko@gmail.com</a></span
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <img
+                  src="/assets/icon/github.png"
+                  alt=""
+                  class="icon-contacts"
+                />
+                <span class="list-contact"
+                  >Github:
+                  <a href="https://github.com/AleksandrVatipko"
+                    >AleksandrVatipko</a
+                  ></span
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <img
+                  src="/assets/icon/telegram.png"
+                  alt=""
+                  class="icon-contacts"
+                />
+                <span class="list-contact">Telegram:</span>
+                <a href="https://t.me/Pibody22">@Pibody22</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <img
+                  src="/assets/icon/discord.svg"
+                  alt="Discord"
+                  class="icon-contacts"
+                /><span class="list-contact"
+                  >Discord: oleksandr_vatipko#2934</span
+                >
+              </p>
+            </li>
+          </ul>
         </section>
         <section class="section" id="summaty">
           <h2 class="section-title">Summary</h2>
@@ -118,10 +175,23 @@
     </main>
 
     <footer class="footer">
-      <div class="#">
-        <a href="https://github.com/AleksandrVatipko">My Github</a>
-        <p>2022</p>
-         <a href="https://rs.school/js/"><img src="/assets/icon/rs_school_js.svg" alt="RSSCHOOL" width="86" height="26"></a>
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-link">
+            <img src="/assets/icon/github.png" alt="" width="20" height="20" />
+            <a href="https://github.com/AleksandrVatipko">My Github</a>
+          </li>
+          <li class="footer-link">2022</li>
+          <li class="footer-link">
+            <a href="https://rs.school/js/"
+              ><img
+                src="/assets/icon/rs_school_js.svg"
+                alt="RSSCHOOL"
+                width="86"
+                height="26"
+            /></a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>

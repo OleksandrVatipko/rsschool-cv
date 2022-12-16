@@ -31,10 +31,26 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-family: 'Alegreya', serif;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
   color: #4d2323;
+}
+
+header {
+  background-color: #829985;
+  border: 1px solid blue;
+}
+
+main {
+  border: 1px solid green;
+  padding: 0 20px;
+}
+
+footer {
+  padding: 0 20px 0 0;
+  background-color: #829985;
 }
 
 .container {
@@ -56,7 +72,7 @@ body {
 }
 
 .nav-item a {
-  color: #829985;
+  color: white;
   text-decoration: none;
   transition: color 0.5s;
 }
@@ -74,6 +90,14 @@ body {
   border-radius: 100%;
   padding: 3px;
 }
+.avatar-center {
+  display: flex;
+  justify-content: center;
+}
+
+.hr {
+  width: 70%;
+}
 
 .section {
   width: 50%;
@@ -81,7 +105,7 @@ body {
 
 .section-title {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #829985;
@@ -93,26 +117,38 @@ body {
   transition: color 0.5s;
 }
 
-.profile-text{
-    text-align: center;
-    text-transform: uppercase;
+.profile-text {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .icon-contacts {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .link:hover {
   color: #5d7260;
 }
 
-footer {
-  border: 1px solid red;
+.list {
+  padding: 0;
+  list-style: none;
 }
-main {
-  border: 1px solid green;
+
+.list-contact {
+  padding: 0 0 0 5px;
 }
-header {
-  border: 1px solid blue;
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.footer-link {
+  font-size: 20px;
+  text-transform: uppercase;
 }
