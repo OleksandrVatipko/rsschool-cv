@@ -40,16 +40,10 @@ body {
 
 header {
   background-color: #829985;
-  border: 1px solid blue;
-}
-
-main {
-  border: 1px solid green;
-  padding: 0 20px;
 }
 
 footer {
-  padding: 0 20px 0 0;
+  padding: 0 20px 0 20px;
   background-color: #829985;
 }
 
@@ -63,6 +57,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
+  padding: 0;
 }
 
 .nav-link {
@@ -87,6 +82,8 @@ footer {
 }
 
 .avatar {
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   padding: 3px;
 }
@@ -146,6 +143,7 @@ footer {
   align-items: center;
   list-style: none;
   color: white;
+  padding: 0;
 }
 
 .footer-link {
