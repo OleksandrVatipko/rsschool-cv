@@ -38,6 +38,10 @@ body {
   color: #4d2323;
 }
 
+header {
+  background-color: #829985;
+}
+
 footer {
   padding: 0 20px 0 20px;
   background-color: #829985;
@@ -53,6 +57,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
+  padding: 0;
 }
 
 .nav-link {
